@@ -1,0 +1,79 @@
+                                           Readme     
+
+ 
+
+For this project called LA LIBRERIA we made its structuring in HTML, CSS and JS codes. 
+
+ 
+
+Its structure was divided into parts called: 
+
+ 
+
+        Body—header – Menu – Cards – Form – Footer  
+
+ 
+
+The main colors used on which I base myself were the following; 
+
+        #E37C02;    -             gray 
+
+ 
+
+   aqua #00FFFF                    black: #000000; 
+
+ 
+
+ 
+
+ 
+
+The type of calligraphy used were as follows;  
+
+ 
+
+   font-family: 'Open inter', sans-serif; 
+
+   font-family::'Proza Libre', sans-serif; 
+
+ 
+
+ 
+
+                                           
+
+ 
+
+The images used were placed on the web and used to make the promotions of a bookstore that places you by name:  
+
+https://www.googleapis.com/books/v1/volumes?q=search+terms&maxResults=39 
+
+ 
+
+                                                      
+
+                                                       
+
+                   
+
+                                                          
+
+                                       
+
+                                 Purpose  
+
+ 
+
+This project is   oriented to the work that I am assigned a reference to  a  library,  the   API call is made by placing a limit of  39 books, each of them is with   the  respective name of the book and the author. 
+
+ 
+
+ 
+
+It is adapted to be visualized in: 
+
+ Destock being visible on 100% of computer and tablet screens and phone being adaptable for any type of device. 
+
+ 
+
+ 

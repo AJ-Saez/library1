@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8876d630a5.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <title>Biblioteca</title>
+</head>
+
+<body class="contac">
+
+    <header>
+        <div class="cabeza">
+            <h1>La Libreria <br> de <br> ABD3L</h1>
+            <nav class="cabeza1 navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="index.html">INICIO</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    LIBROS
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="promociones.html">PROMOCIONES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="recomendados.html">RECOMENDADOS</a>
+                                    </li>
+
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="contactos.html">CONTACTANOS</a></li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                        <div class="buscador-principal">
+
+                            <input id="search" class="search" placeholder="search"><br>
+
+                            <div id="panel" class="panel"></div>
+
+                            <input id="boton" class="boton" type="button" value="Buscar" onclick="Buscar()">
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav>
+        <div class="recomiendo">
+            <h1>Bienvenido a: <br> La LIBRERIA DE ABD3L</h1>
+
+            <p class="capital">Esta libreria es propiedad de Abdel Saez un joven emprendedor que tomo la decicion de
+                emprender en el mundo del saber y asi ayudar a las personas a que tengan mas facilidad de conseguir esos
+                libros
+                que te llenan de conocimientos para emprender al mundo del mañana.</p>
+            <p>Tenemos una gran coleccion de libros fisicos asi como
+                digitales, tenemos una amplia variedad que les permitira escoger libros de calidad en cualquier
+                categoria
+                que este <span class="italic">Buscando</span>.</p>
+        </div>
+    </nav>
+    <section>
+
+        <div class="formulario1">
+            <input id="buscar" class="buscar12" placeholder="Buscar"><br>
+            <button id="btn" class="btn">Enviar</button>
+
+            <div class="panel">
+                <div id="panel" class="panel"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <div class="social">
+
+        <div class="redes">
+            <a href="https://es-es.facebook.com/login/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://wa.link/svsf52" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+        </div>
+
+        <div class="pagos">
+            <img src="./imagenes/pago.png" alt="">
+
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
